@@ -1,0 +1,70 @@
+﻿@model SilentAction.Web.Models.CampaignListViewModel
+
+@if (Model.Campaigns != null && Model.Campaigns.Count > 0)
+{
+    var counter = 1;
+    
+    foreach (var item in Model.Campaigns)
+    {
+        
+        var campaignId = item.Id;
+        string path = "{0}/media/campaigns/{1}".FormatWith((SilentAction.Core.App.Configurations.PreviewMode.Value ? "/preview" : ""), campaignId);
+        string placeholderfullpath = "{0}/content/img/{1}".FormatWith((SilentAction.Core.App.Configurations.PreviewMode.Value ? "/preview" : ""), SilentAction.Core.App.Configurations.CampaignPhotoPlaceHolder.Value);
+
+        bool campaignPhotoExist = false;
+
+        try
+        {
+            string fullPath = Server.MapPath("~/media");
+            fullPath = Path.Combine(fullPath, "campaigns\\{0}\\{1}".FormatWith(campaignId, item.BannerImage));
+            if (System.IO.File.Exists(fullPath))
+            {
+                campaignPhotoExist = true;
+            }
+        }
+        catch
+        {
+
+        }
+
+        var attribute = "";
+        var totalItems = "";
+        
+        if(Model.Campaigns.Count == counter)
+        {
+            attribute = "data-page=" + (Model.Campaigns.PageIndex + 1).ToString();
+        }
+        
+        totalItems = "data-total=" + Model.Campaigns.TotalCount.ToString();
+        counter++;
+        <article class="hentry item" @attribute @totalItems>
+            <a rel="bookmark" title="@item.Title" href="@Url.RouteUrl(MVC.RouteNames.Campaign.CampaignDetails, new { id = item.Id})">
+                <img class="campaign-img" src="@(campaignPhotoExist ? path + "/" + item.BannerImage : placeholderfullpath)">
+            </a>
+
+            <h3 class="entry-title">
+                <a rel="bookmark" title="@item.Title" href="@Url.RouteUrl(MVC.RouteNames.Campaign.CampaignDetails, new { id = item.Id})">@item.Title</a>
+            </h3>
+
+            <p>@item.ShortDescription</p>
+
+            <div class="digits">
+                <div class="bar fund-progress-bar"><span style="width: 0%"></span></div>
+                <ul>
+                    @if (item.TotalFundedPercentage.HasValue && item.TotalFundedPercentage > -1)
+                    {
+                        <li><strong>@item.TotalFundedPercentage%</strong> Funded</li>
+                    }
+                    <li><strong>$@item.TotalFundedAmount</strong> Funded</li>
+
+                        <li><strong>@item.ElapseTime</strong> @item.ElapseTimeFormat to Go</li>
+
+                </ul>
+            </div>
+        </article>
+    }
+}
+else
+{
+    <p>We are extremely <strong> sorry </strong> that there are no campaign available right now. Please check later.</p>
+}

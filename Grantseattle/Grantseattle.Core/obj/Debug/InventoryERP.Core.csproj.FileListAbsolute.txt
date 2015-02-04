@@ -1,0 +1,43 @@
+F:\Projects\Outer\InventoryERP\InvertoryERP.Core\bin\Debug\InvertoryERP.Core.dll
+F:\Projects\Outer\InventoryERP\InvertoryERP.Core\bin\Debug\InvertoryERP.Core.pdb
+F:\Projects\Outer\InventoryERP\InvertoryERP.Core\bin\Debug\MongoDB.Bson.dll
+F:\Projects\Outer\InventoryERP\InvertoryERP.Core\bin\Debug\MongoDB.Driver.dll
+F:\Projects\Outer\InventoryERP\InvertoryERP.Core\bin\Debug\Newtonsoft.Json.dll
+F:\Projects\Outer\InventoryERP\InvertoryERP.Core\bin\Debug\MongoDB.Bson.xml
+F:\Projects\Outer\InventoryERP\InvertoryERP.Core\bin\Debug\MongoDB.Driver.xml
+F:\Projects\Outer\InventoryERP\InvertoryERP.Core\bin\Debug\Newtonsoft.Json.xml
+F:\Projects\Outer\InventoryERP\InvertoryERP.Core\obj\Debug\InvertoryERP.Core.dll
+F:\Projects\Outer\InventoryERP\InvertoryERP.Core\obj\Debug\InvertoryERP.Core.pdb
+F:\Workplace\Projects\Outer\InventoryERP\InvertoryERP.Core\bin\Debug\InvertoryERP.Core.dll
+F:\Workplace\Projects\Outer\InventoryERP\InvertoryERP.Core\bin\Debug\InvertoryERP.Core.pdb
+F:\Workplace\Projects\Outer\InventoryERP\InvertoryERP.Core\bin\Debug\MongoDB.Bson.dll
+F:\Workplace\Projects\Outer\InventoryERP\InvertoryERP.Core\bin\Debug\MongoDB.Driver.dll
+F:\Workplace\Projects\Outer\InventoryERP\InvertoryERP.Core\bin\Debug\Newtonsoft.Json.dll
+F:\Workplace\Projects\Outer\InventoryERP\InvertoryERP.Core\bin\Debug\MongoDB.Bson.xml
+F:\Workplace\Projects\Outer\InventoryERP\InvertoryERP.Core\bin\Debug\MongoDB.Driver.xml
+F:\Workplace\Projects\Outer\InventoryERP\InvertoryERP.Core\bin\Debug\Newtonsoft.Json.xml
+F:\Workplace\Projects\Outer\InventoryERP\InvertoryERP.Core\obj\Debug\InventoryERP.Core.csprojResolveAssemblyReference.cache
+F:\Workplace\Projects\Outer\InventoryERP\InvertoryERP.Core\obj\Debug\InvertoryERP.Core.dll
+F:\Workplace\Projects\Outer\InventoryERP\InvertoryERP.Core\obj\Debug\InvertoryERP.Core.pdb
+F:\Workplace\Projects\code\InvertoryERP.Core\bin\Debug\InvertoryERP.Core.dll
+F:\Workplace\Projects\code\InvertoryERP.Core\bin\Debug\InvertoryERP.Core.pdb
+F:\Workplace\Projects\code\InvertoryERP.Core\bin\Debug\MongoDB.Bson.dll
+F:\Workplace\Projects\code\InvertoryERP.Core\bin\Debug\MongoDB.Driver.dll
+F:\Workplace\Projects\code\InvertoryERP.Core\bin\Debug\Newtonsoft.Json.dll
+F:\Workplace\Projects\code\InvertoryERP.Core\bin\Debug\MongoDB.Bson.xml
+F:\Workplace\Projects\code\InvertoryERP.Core\bin\Debug\MongoDB.Driver.xml
+F:\Workplace\Projects\code\InvertoryERP.Core\bin\Debug\Newtonsoft.Json.xml
+F:\Workplace\Projects\code\InvertoryERP.Core\obj\Debug\InvertoryERP.Core.dll
+F:\Workplace\Projects\code\InvertoryERP.Core\obj\Debug\InvertoryERP.Core.pdb
+F:\Workplace\Projects\code\InvertoryERP.Core\obj\Debug\InventoryERP.Core.csprojResolveAssemblyReference.cache
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\bin\Debug\InvertoryERP.Core.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\bin\Debug\InvertoryERP.Core.pdb
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\bin\Debug\MongoDB.Bson.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\bin\Debug\MongoDB.Driver.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\bin\Debug\Newtonsoft.Json.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\bin\Debug\MongoDB.Bson.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\bin\Debug\MongoDB.Driver.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\bin\Debug\Newtonsoft.Json.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\obj\Debug\InventoryERP.Core.csprojResolveAssemblyReference.cache
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\obj\Debug\InvertoryERP.Core.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\obj\Debug\InvertoryERP.Core.pdb

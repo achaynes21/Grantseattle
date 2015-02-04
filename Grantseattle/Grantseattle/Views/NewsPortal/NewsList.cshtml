@@ -1,0 +1,66 @@
+﻿@model IEnumerable<InvertoryERP.Core.Domain.News>
+
+@{
+    ViewBag.Title = "NewsList";
+    Layout = "~/Views/Shared/_SubLayout.cshtml";
+}
+
+<section class="container">
+
+    <h2>News List</h2>
+    <p>
+        @Html.ActionLink("Create News", "PublishNews")
+    </p>
+    <table class="table table-bordered table-condensed table-condensed">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Heading)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Source)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NewsDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpdatedAt)
+            </th>
+            
+            <th>
+                Action
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Heading)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Source)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NewsDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedAt)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UpdatedAt)
+                </td>
+                
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+</section>

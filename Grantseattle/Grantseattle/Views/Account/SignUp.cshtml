@@ -1,0 +1,137 @@
+﻿@model InventoryERP.Web.Models.SignUpViewModel
+@{
+    ViewBag.Title = "Sign Up";
+    Layout = "~/Views/Shared/_SubLayout.cshtml";
+}
+
+<div class="container">
+    <section class="signup-form-section form-section">
+        <div class="signup-form-content">
+            <h1 class="page-title">Sign Up</h1>
+
+            <h4>Fill up the form below to register and create your campaign in a meeting!</h4>
+
+            <div class="form signup-form">
+                @using (Html.BeginRouteForm(MVC.RouteNames.Account.SignUp, FormMethod.Post, new { id = "frm"}))
+                {
+                    <div class="field">
+                        @Html.TextBoxFor(x => x.FirstName, new { @class = "inputbox", placeholder = "First Name" })
+                        @Html.ValidationMessageFor(x => x.FirstName)
+                    </div>
+                    <div class="field">
+                        @Html.TextBoxFor(x => x.LastName, new { @class = "inputbox", placeholder = "Last Name" })
+                        @Html.ValidationMessageFor(x => x.LastName)
+                    </div>
+                    <div class="field">
+                        @Html.TextBoxFor(x => x.Email, new { @class = "inputbox", placeholder = "Email" })
+                        @Html.ValidationMessageFor(x => x.Email)
+                    </div>
+                    <div class="field">
+                        @Html.PasswordFor(x => x.Password, new { @class = "inputbox", placeholder = "Password" })
+                        <!--<div class="password-strength-container noTransition"></div>-->
+                        @Html.ValidationMessageFor(x => x.Password)
+                    </div>
+                    <div class="field">
+                        @Html.PasswordFor(x => x.ConfirmPassword, new { @class = "inputbox", placeholder = "Confirm Password" })
+                        @Html.ValidationMessageFor(x => x.ConfirmPassword)
+                    </div>
+                    <div class="field">
+                        <label class="agreement">
+                            @Html.CheckBoxFor(x => x.Agree, new { id = "agreement" })
+                            I agree to the <a href="@Url.RouteUrl(MVC.RouteNames.Home.About)">Terms of Use</a> and <a href="@Url.RouteUrl(MVC.RouteNames.Home.About)">Privacy Policy</a>
+                        </label>  
+                        <br />                      
+                        <span class="field-validation-error" id="customErrorMsg" style="display:none">You must agree to the Terms of Use.</span>                                                    
+                        <br>
+                        <label class="keep-signed-in">
+                            @Html.CheckBoxFor(x => x.RememberMe, new { id = "keep-signed-in" })
+                            Keep me signed in on this computer
+                        </label>
+                    </div>
+                    <div class="field">
+                        <button class="btn btn-primary btn-m" type="button" id="btnSubmit">Sign Up</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    <section class="signin-link-section link-section">
+        <div class="signin-link-content">
+            <h1 class="page-title">Sign In</h1>
+            <h4>Already have a Grantseattle Account? <br />You can sign in <a href="@Url.RouteUrl(MVC.RouteNames.Account.SignIn)">here</a>.</h4>
+        </div>
+    </section>
+    <div class="clear"></div>
+</div>
+
+@section scripts
+{
+    <script type="text/javascript">
+        var signUp = function () {
+            jQuery('#btnSubmit').off('click');
+            var isChecked = jQuery('#agreement').is(':checked');
+            var form = jQuery('#frm');
+            form.validate();
+
+            if (form.valid()) {
+                if (!isChecked) {
+                    jQuery('#customErrorMsg').show();
+                    jQuery('#btnSubmit').on('click', signUp);
+                    //event.preventDefault();
+                    return;
+                }
+                else {
+                    form.submit();
+                }
+            }
+            else {
+                if (!isChecked) {
+                    jQuery('#customErrorMsg').show();
+                    jQuery('#btnSubmit').on('click', signUp);
+                    //event.preventDefault();
+                    return;
+                }
+            }
+
+        };
+
+        jQuery('#btnSubmit').on('click', signUp);
+
+        jQuery('.inputbox').on('keypress', function (e) {
+            var key = e.which;
+            if (key == 13) {
+                jQuery('#btnSubmit').off('click');
+                var isChecked = jQuery('#agreement').is(':checked');
+                var form = jQuery('#frm');
+                form.validate();
+
+                if (form.valid()) {
+                    if (!isChecked) {
+                        jQuery('#customErrorMsg').show();
+                        e.preventDefault();
+                        jQuery('#btnSubmit').on('click', signUp);
+                    }
+                    else {
+                        form.submit();
+                    }
+                }
+                else {
+                    if (!isChecked) {
+                        jQuery('#customErrorMsg').show();
+                        jQuery('#btnSubmit').on('click', signUp);
+                        //event.preventDefault();
+                        return;
+                    }
+                }
+
+            }
+        });
+
+        jQuery('#agreement').on('change', function () {
+            var isChecked = $('#agreement').is(':checked');
+            if (isChecked) {
+                jQuery('#customErrorMsg').hide();
+            }
+        });
+    </script>    
+}

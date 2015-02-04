@@ -1,0 +1,109 @@
+﻿@model InventoryERP.Models.PropertyModelView
+
+@{
+    ViewBag.Title = "PropertyRegistration";
+    Layout = "~/Views/Shared/_SubLayout.cshtml";
+}
+<section class="container">
+    <section class="panel panel-default">
+        <div class="panel-heading">
+            <h1 class="page-title">Property Registration</h1>
+        </div>
+        <div class="panel-body">
+            @using (Html.BeginForm("PropertyRegistration", "PropertyListing", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-horizontal">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.PropertyLocationType, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+
+                            @Html.DropDownList("PROLOCATION", (IEnumerable<SelectListItem>)ViewBag.PROLOCATION, "Property Location", new { @class = "form-control", @required = "required" })
+                            @Html.ValidationMessageFor(model => model.PropertyLocationType, "", new { @class = "text-danger" })
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.PropertyPurposeType, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+
+                            @Html.DropDownList("PROPURPOSETYPE", (IEnumerable<SelectListItem>)ViewBag.PROPURPOSETYPE, "Property Purpose", new { @class = "form-control", @required = "required" })
+                            @Html.ValidationMessageFor(model => model.PropertyPurposeType, "", new { @class = "text-danger" })
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.PropertyType, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+
+                            @Html.DropDownList("PROTYPE", (IEnumerable<SelectListItem>)ViewBag.PROTYPE, "Property Type", new { @class = "form-control", @required = "required" })
+                            @Html.ValidationMessageFor(model => model.PropertyType, "", new { @class = "text-danger" })
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Agent, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownList("ALLAGENT", (IEnumerable<SelectListItem>)ViewBag.ALLAGENT, "Select Agent", new { @class = "form-control", @required = "required" })
+                            @Html.ValidationMessageFor(model => model.Agent, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    @*<div class="form-group">
+                            @Html.LabelFor(model => model.IsEstablished, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                <div class="checkbox">
+                                    @Html.EditorFor(model => model.IsEstablished)
+                                    @Html.ValidationMessageFor(model => model.IsEstablished, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>*@
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    @*<div class="form-group">
+                            @Html.LabelFor(model => model.PriceinText, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.PriceinText, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.PriceinText, "", new { @class = "text-danger" })
+                            </div>
+                        </div>*@
+
+                    @*<div class="form-group">
+                            @Html.LabelFor(model => model.IsPriceDisplay, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.IsPriceDisplay, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.IsPriceDisplay, "", new { @class = "text-danger" })
+                            </div>
+                        </div>*@
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Continue" class="btn btn-default" />
+                        </div>
+                    </div>
+                </div>
+            }
+
+            <div>
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+
+        </div>
+    </section>
+</section>
+<h2></h2>

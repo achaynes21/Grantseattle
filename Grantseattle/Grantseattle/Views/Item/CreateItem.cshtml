@@ -1,0 +1,79 @@
+﻿@model InventoryERP.Web.Models.ItemEditModel
+@{
+    ViewBag.Title = "Create Item";
+    Layout = "~/Views/Shared/_SubLayout.cshtml";
+}
+
+<div class="container">
+    <section class="signup-form-section form-section">
+        <div class="signup-form-content">
+            <h1 class="page-title">Create Item</h1>
+
+            
+
+            @using (Html.BeginRouteForm(MVC.RouteNames.Item.CreateItem, FormMethod.Post, new { id = "frm" }))
+            {
+                <div class="field">
+                    <label class="required" for="Name">Name</label>
+                    <div class="input-field">
+                        @Html.TextBoxFor(x => x.Name, new { @class = "inputbox name" })
+                       
+                    </div>
+                    @Html.ValidationMessageFor(x => x.Name)
+                    <div class="clear"></div>
+                </div>
+                <div class="field">
+                    <label class="required" for="BrandName">Brand Name</label>
+                    <div class="input-field">
+                        @Html.TextBoxFor(x => x.BrandName, new { @class = "inputbox brand-name" })
+                       
+                    </div>
+                    @Html.ValidationMessageFor(x => x.BrandName)
+                    <div class="clear"></div>
+                </div>
+                <div class="field">
+                    <label class="required" for="ModelNo">Model No.</label>
+                    <div class="input-field">
+                        @Html.TextBoxFor(x => x.ModelNo, new { @class = "inputbox model-no" })
+                       
+                    </div>
+                    @Html.ValidationMessageFor(x => x.ModelNo)
+                    <div class="clear"></div>
+                </div>
+                <div class="field">
+                    <label class="required" for="Price">Price</label>
+                    <div class="input-field">
+                        @Html.TextBoxFor(x => x.Price, new { @class = "inputbox price" })
+                        
+                    </div>
+                    @Html.ValidationMessageFor(x => x.Price)
+                    <div class="clear"></div>
+                </div>
+
+                <br />
+                @*<div class="card-info-container">
+                    <h3 class="section-header">Card Information</h3>
+                    <div class="field">
+                        <label class="required" for="amount">Amount</label>
+                        <div class="input-field">
+                            <div class="input-group">
+                                <span class="input-group-addon">$</span>
+                                <input type="text" value="" size="25" name="amount" id="amount" class="inputbox amount" data-type="number" data-decimal="false" />
+                                <span class="input-group-addon">.00</span>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>*@
+                <div class="field">
+                    <div class="button-field">
+                        <button type="submit" id="submitBilling" class="btn btn-primary rectButton no-margin"><span>Create</span></button>
+                        <div class="note">* Fields marked with asterisks are required.</div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            }
+        </div>
+    </section>
+    <div class="clear"></div>
+</div>

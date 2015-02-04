@@ -1,0 +1,231 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<head>
+    <meta charset="utf-8">
+    <title>Home Page - Real Estate Properties</title>
+    <!-- Description, Keywords and Author -->
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your,Keywords">
+    <meta name="author" content="ResponsiveWebInc">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <!-- Bootstrap CSS -->
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/Frontend/magnific-popup.css" rel="stylesheet" />
+    <link href="~/Content/Frontend/owl.carousel.css" rel="stylesheet" />
+    <link href="~/Content/Frontend/styles/real-estate.css" rel="stylesheet" />
+    <link href="~/Content/Frontend/styles/style.css" rel="stylesheet" />
+    <link href="~/Content/Frontend/styles/skin-lblue.css" rel="stylesheet" />
+    <link href="~/Content/Frontend/custom.css" rel="stylesheet" />
+    @RenderSection("css", required: false)
+    <!--[if lt IE 9]>
+        <link href="~/Contents/styles-ie8.css" rel="stylesheet">
+    <![endif]-->
+    <!-- jquery Respond Plugin for IE8 -->
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="#">
+</head>
+
+<!-- Add class "boxed" along with body for boxed layout. -->
+<!-- Add "pattern-x" (1 to 5) for background patterns. -->
+<!-- Add "img-x" (1 to 5) for background images. -->
+<body>
+
+    <!-- Outer Starts -->
+    <div class="outer">
+
+        <!-- Top bar starts -->
+        <div class="top-bar">
+            <div class="container">
+
+                <!-- Contact starts -->
+                <div class="tb-contact pull-left">
+                    <!-- Email -->
+                    <i class="fa fa-envelope color"></i> &nbsp; <a href="mailto:contact@domain.com">grant.wadehuang@gmail.com</a>
+                    &nbsp;&nbsp;
+                    <!-- Phone -->
+                    <i class="fa fa-phone color"></i> &nbsp; +1 (425)-(463)-8118
+                </div>
+                <!-- Contact ends -->
+                <!-- Langauge starts -->
+                <div class="tb-language dropdown pull-right">
+                    <a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> English <i class="fa fa-angle-down color"></i></a>
+                    <!-- Dropdown menu with languages -->
+                    @*<ul class="dropdown-menu dropdown-mini" role="menu">
+                            <li><a href="#">简体中文</a></li>
+                            <li><a href="#">繁體中文</a></li>
+                        </ul>*@
+                </div>
+                <!-- Language ends -->
+                <!-- Search section for responsive design -->
+                <div class="tb-search pull-left">
+                    <a href="#" class="b-dropdown"><i class="fa fa-search square-2 rounded-1 bg-color white"></i></a>
+                    <div class="b-dropdown-block">
+                        <form role="form">
+                            <!-- Input Group -->
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Type Something">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-color" type="button">Search</button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Search section ends -->
+                <!-- Social media starts -->
+                <div class="tb-social pull-right">
+                    <div class="brand-bg text-right">
+                        <!-- Brand Icons -->
+                        <a href="#" class="facebook"><i class="fa fa-facebook square-2 rounded-1"></i></a>
+                        <a href="#" class="twitter"><i class="fa fa-twitter square-2 rounded-1"></i></a>
+                        <a href="#" class="google-plus"><i class="fa fa-google-plus square-2 rounded-1"></i></a>
+                        <a href="#" class="linkedin"><i class="fa fa-linkedin square-2 rounded-1"></i></a>
+                        <a href="#" class="pinterest"><i class="fa fa-pinterest square-2 rounded-1"></i></a>
+                    </div>
+                </div>
+                <!-- Social media ends -->
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <!-- Top bar ends -->
+        <!-- Header two Starts -->
+        <div class="header-2">
+
+            <!-- Container -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <!-- Logo section -->
+                        <div class="logo">
+                            <h1><a href="#"><img src="~/Content/Frontend/Img/warring_logo.jpg" height="80px" /></a></h1>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+
+                        <!-- Navigation starts.  -->
+                        <div class="navy">
+                            <ul>
+                                <!-- Main menu -->
+                                <li><a id="home" href="Client">Home</a></li>
+                                <li><a id="myFavourite" href="#">My Favorites</a></li>
+                                <li><a id="ourServices" href="#">Our Services</a></li>
+                                <li><a id="blog" href="#">Blog</a></li>
+                                <li><a id="news" href="#">News</a></li>
+                                <li><a id="aboutUs" href="#">About Us</a></li>
+                                <li><a id="contactUs" href="#">Contact Us</a></li>
+                                <li><a href="@Url.RouteUrl(MVC.RouteNames.Account.SignOut)">Sign Out</a></li>
+                            </ul>
+                        </div>
+                        <!-- Navigation ends -->
+
+                    </div>
+
+                    <div class="col-md-1">
+
+                        <!-- Search section -->
+                        <div class="head-search pull-right">
+                            <a href="#" class="b-dropdown"><i class="fa fa-search square-2 rounded-1 bg-color white"></i></a>
+                            <div class="b-dropdown-block">
+                                <form role="form">
+                                    <!-- Input Group -->
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Type Something">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-color" type="button">Search</button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- Search section ends -->
+                        <div class="clearfix"></div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Header two ends -->
+        <!-- Main content starts -->
+
+        <div class="main-block real-estate">
+
+            @RenderBody()
+
+
+
+
+        </div>
+
+        <!-- Main content ends -->
+        <!-- Footer Starts -->
+
+        <footer>
+            <!-- Container -->
+            <div class="container">
+                <!-- Footer Content -->
+                <!-- Paragraph -->
+                <p class="pull-left">Copyright &copy; 2015 - <a href="#">GrantSeattle.com</a></p>
+                <ul class="list-inline pull-right">
+                    <!-- List -->
+                    <li><a href="http://www.grantseattle.com/index.html">Home</a></li>
+                    <li><a href="http://www.grantseattle.com/service.html">Service</a></li>
+                    <li><a href="http://www.grantseattle.com/feature.html">Features</a></li>
+                    <li><a href="http://www.grantseattle.com/about-us.html">About</a></li>
+                    <li><a href="http://www.grantseattle.com/contact-us.html">Contact</a></li>
+                </ul>
+                <!-- Clearfix -->
+                <div class="clearfix"></div>
+            </div>
+        </footer>
+
+        <!-- Footer Ends -->
+
+    </div>
+
+    <!-- Outer Ends -->
+    <!-- Scroll to top -->
+    <span class="totop"><a href="#"><i class="fa fa-angle-up bg-color"></i></a></span>
+
+    <!-- Javascript files -->
+    <!-- jQuery -->
+    <script src="~/Scripts/jquery-2.1.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/Frontend/placeholders.js"></script>
+    <script src="~/Scripts/Frontend/jquery.magnific-popup.min.js"></script>
+    <script src="~/Scripts/Frontend/owl.carousel.min.js"></script>
+    <script src="~/Scripts/Frontend/respond.min.js"></script>
+    <script src="~/Scripts/Frontend/html5shiv.js"></script>
+    <script src="~/Scripts/Frontend/main.js"></script>
+
+
+    <!-- Javascript for this page -->
+    <!-- G Map JS -->
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="~/Scripts/Frontend/jquery.gmap.min.js"></script>
+
+    <!-- Real estate custom -->
+    <script src="~/Scripts/Frontend/real-estate.js"></script>
+
+    <!-- Custom JS. Type your JS code in custom.js file -->
+    <script src="~/Scripts/Frontend/custom.js"></script>
+
+    @RenderSection("scripts", required: false)
+
+
+</body>
+
+</html>

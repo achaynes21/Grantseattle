@@ -1,0 +1,28 @@
+F:\Workplace\Projects\code\InventoryERP.Tester\bin\Debug\InventoryERP.Tester.dll.config
+F:\Workplace\Projects\code\InventoryERP.Tester\bin\Debug\InventoryERP.Tester.dll
+F:\Workplace\Projects\code\InventoryERP.Tester\bin\Debug\InventoryERP.Tester.pdb
+F:\Workplace\Projects\code\InventoryERP.Tester\bin\Debug\InvertoryERP.Core.dll
+F:\Workplace\Projects\code\InventoryERP.Tester\bin\Debug\MongoDB.Bson.dll
+F:\Workplace\Projects\code\InventoryERP.Tester\bin\Debug\MongoDB.Driver.dll
+F:\Workplace\Projects\code\InventoryERP.Tester\bin\Debug\Newtonsoft.Json.dll
+F:\Workplace\Projects\code\InventoryERP.Tester\bin\Debug\InvertoryERP.Core.pdb
+F:\Workplace\Projects\code\InventoryERP.Tester\bin\Debug\MongoDB.Bson.xml
+F:\Workplace\Projects\code\InventoryERP.Tester\bin\Debug\MongoDB.Driver.xml
+F:\Workplace\Projects\code\InventoryERP.Tester\bin\Debug\Newtonsoft.Json.xml
+F:\Workplace\Projects\code\InventoryERP.Tester\obj\Debug\InventoryERP.Tester.csprojResolveAssemblyReference.cache
+F:\Workplace\Projects\code\InventoryERP.Tester\obj\Debug\InventoryERP.Tester.dll
+F:\Workplace\Projects\code\InventoryERP.Tester\obj\Debug\InventoryERP.Tester.pdb
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP.Tester\bin\Debug\InventoryERP.Tester.dll.config
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP.Tester\bin\Debug\InventoryERP.Tester.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP.Tester\bin\Debug\InventoryERP.Tester.pdb
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP.Tester\bin\Debug\InvertoryERP.Core.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP.Tester\bin\Debug\MongoDB.Bson.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP.Tester\bin\Debug\MongoDB.Driver.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP.Tester\bin\Debug\Newtonsoft.Json.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP.Tester\bin\Debug\InvertoryERP.Core.pdb
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP.Tester\bin\Debug\MongoDB.Bson.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP.Tester\bin\Debug\MongoDB.Driver.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP.Tester\bin\Debug\Newtonsoft.Json.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP.Tester\obj\Debug\InventoryERP.Tester.csprojResolveAssemblyReference.cache
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP.Tester\obj\Debug\InventoryERP.Tester.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP.Tester\obj\Debug\InventoryERP.Tester.pdb

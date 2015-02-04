@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5FC1C5EF-6EA4-453F-9016-BF5734F460D3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InventoryERP.Service</RootNamespace>
+    <AssemblyName>InventoryERP.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.5\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ModelConverters\AccountServiceModelConverters.cs" />
+    <Compile Include="Services\ModelConverters\ItemServiceModelConverters.cs" />
+    <Compile Include="Services\Models\AccountServiceModels.cs" />
+    <Compile Include="Services\Models\CommonServiceModels.cs" />
+    <Compile Include="Services\Models\ItemServiceModels.cs" />
+    <Compile Include="Services\Services\Base\BaseService.cs" />
+    <Compile Include="Services\Services\IAccountService.cs" />
+    <Compile Include="Services\Services\IAgentService.cs" />
+    <Compile Include="Services\Services\IAuthenticationService.cs" />
+    <Compile Include="Services\Services\IBlogCategoryService.cs" />
+    <Compile Include="Services\Services\IBlogPostService.cs" />
+    <Compile Include="Services\Services\IContactUsService.cs" />
+    <Compile Include="Services\Services\ICountryService.cs" />
+    <Compile Include="Services\Services\IEmailService.cs" />
+    <Compile Include="Services\Services\IItemService.cs" />
+    <Compile Include="Services\Services\Implementations\AccountService.cs" />
+    <Compile Include="Services\Services\Implementations\Agentservice.cs" />
+    <Compile Include="Services\Services\Implementations\AuthenticationService.cs" />
+    <Compile Include="Services\Services\Implementations\BlogCategoryService.cs" />
+    <Compile Include="Services\Services\Implementations\BlogPostService.cs" />
+    <Compile Include="Services\Services\Implementations\ContactUsService.cs" />
+    <Compile Include="Services\Services\Implementations\CountryService.cs" />
+    <Compile Include="Services\Services\Implementations\EmailService.cs" />
+    <Compile Include="Services\Services\Implementations\NewsPortalService.cs" />
+    <Compile Include="Services\Services\Implementations\ItemService.cs" />
+    <Compile Include="Services\Services\Implementations\PropertyDetailsService.cs" />
+    <Compile Include="Services\Services\Implementations\PropertyLocationService.cs" />
+    <Compile Include="Services\Services\Implementations\PropertyPurposeService.cs" />
+    <Compile Include="Services\Services\Implementations\PropertyRegistration.cs" />
+    <Compile Include="Services\Services\Implementations\PropertyTypeService.cs" />
+    <Compile Include="Services\Services\Implementations\StateService.cs" />
+    <Compile Include="Services\Services\INewsPortalService.cs" />
+    <Compile Include="Services\Services\IPropertyDeteilsSevice.cs" />
+    <Compile Include="Services\Services\IPropertyLocationService.cs" />
+    <Compile Include="Services\Services\IPropertyPurposeService.cs" />
+    <Compile Include="Services\Services\IPropertyRegistration.cs" />
+    <Compile Include="Services\Services\IPropertyTypeService.cs" />
+    <Compile Include="Services\Services\IStateService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Grantseattle.Core\Grantseattle.Core.csproj">
+      <Project>{756187de-6141-4abd-8450-c4e72249af41}</Project>
+      <Name>Grantseattle.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

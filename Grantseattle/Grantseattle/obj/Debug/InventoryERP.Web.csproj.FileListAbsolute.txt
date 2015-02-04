@@ -1,0 +1,302 @@
+F:\Projects\Outer\InventoryERP\InventoryERP\obj\Debug\InventoryERP.Web.csprojResolveAssemblyReference.cache
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\InventoryERP.dll.config
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\InventoryERP.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\InventoryERP.pdb
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Antlr3.Runtime.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\EntityFramework.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\EntityFramework.SqlServer.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\InventoryERP.Service.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\InvertoryERP.Core.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.Google.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Web.Infrastructure.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Newtonsoft.Json.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Owin.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Helpers.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Http.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Mvc.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Optimization.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Razor.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.WebPages.Deployment.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.WebPages.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.WebPages.Razor.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\WebGrease.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\MongoDB.Driver.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\MongoDB.Bson.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Net.Http.Formatting.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\InventoryERP.Service.pdb
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\InvertoryERP.Core.pdb
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Http.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Helpers.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Mvc.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Optimization.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Razor.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.WebPages.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.WebPages.Deployment.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.WebPages.Razor.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Newtonsoft.Json.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Antlr3.Runtime.pdb
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\EntityFramework.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\EntityFramework.SqlServer.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.Google.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\MongoDB.Driver.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\MongoDB.Bson.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Net.Http.Formatting.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\obj\Debug\InventoryERP.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\obj\Debug\InventoryERP.pdb
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Autofac.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Autofac.Integration.Mvc.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Http.SelfHost.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Http.WebHost.dll
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Autofac.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\Autofac.Integration.Mvc.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Http.SelfHost.xml
+F:\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Http.WebHost.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\InventoryERP.dll.config
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\InventoryERP.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\InventoryERP.pdb
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Antlr3.Runtime.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Autofac.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Autofac.Integration.Mvc.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\EntityFramework.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\EntityFramework.SqlServer.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\InventoryERP.Service.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\InvertoryERP.Core.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.Google.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Web.Infrastructure.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\MongoDB.Bson.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\MongoDB.Driver.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Newtonsoft.Json.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Owin.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Helpers.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Http.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Http.SelfHost.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Http.WebHost.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Mvc.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Optimization.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Razor.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.WebPages.Deployment.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.WebPages.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.WebPages.Razor.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\WebGrease.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Net.Http.Formatting.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\InventoryERP.Service.pdb
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\InvertoryERP.Core.pdb
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Autofac.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Autofac.Integration.Mvc.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\MongoDB.Bson.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\MongoDB.Driver.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Helpers.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Http.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Http.SelfHost.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Http.WebHost.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Mvc.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Razor.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.WebPages.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.WebPages.Deployment.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.WebPages.Razor.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Web.Optimization.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Newtonsoft.Json.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Antlr3.Runtime.pdb
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\EntityFramework.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\EntityFramework.SqlServer.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.Google.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\bin\System.Net.Http.Formatting.xml
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\obj\Debug\InventoryERP.Web.csprojResolveAssemblyReference.cache
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\obj\Debug\InventoryERP.dll
+F:\Workplace\Projects\Outer\InventoryERP\InventoryERP\obj\Debug\InventoryERP.pdb
+F:\Workplace\Projects\code\InventoryERP\bin\InventoryERP.dll.config
+F:\Workplace\Projects\code\InventoryERP\bin\InventoryERP.dll
+F:\Workplace\Projects\code\InventoryERP\bin\InventoryERP.pdb
+F:\Workplace\Projects\code\InventoryERP\bin\Antlr3.Runtime.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Autofac.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Autofac.Integration.Mvc.dll
+F:\Workplace\Projects\code\InventoryERP\bin\EntityFramework.dll
+F:\Workplace\Projects\code\InventoryERP\bin\EntityFramework.SqlServer.dll
+F:\Workplace\Projects\code\InventoryERP\bin\InventoryERP.Service.dll
+F:\Workplace\Projects\code\InventoryERP\bin\InvertoryERP.Core.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.Security.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.Security.Google.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Web.Infrastructure.dll
+F:\Workplace\Projects\code\InventoryERP\bin\MongoDB.Bson.dll
+F:\Workplace\Projects\code\InventoryERP\bin\MongoDB.Driver.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Newtonsoft.Json.dll
+F:\Workplace\Projects\code\InventoryERP\bin\Owin.dll
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.Helpers.dll
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.Http.dll
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.Http.SelfHost.dll
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.Http.WebHost.dll
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.Mvc.dll
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.Optimization.dll
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.Razor.dll
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.WebPages.Deployment.dll
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.WebPages.dll
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.WebPages.Razor.dll
+F:\Workplace\Projects\code\InventoryERP\bin\T4MVCExtensions.dll
+F:\Workplace\Projects\code\InventoryERP\bin\WebGrease.dll
+F:\Workplace\Projects\code\InventoryERP\bin\System.Net.Http.Formatting.dll
+F:\Workplace\Projects\code\InventoryERP\bin\InventoryERP.Service.pdb
+F:\Workplace\Projects\code\InventoryERP\bin\InvertoryERP.Core.pdb
+F:\Workplace\Projects\code\InventoryERP\bin\Autofac.xml
+F:\Workplace\Projects\code\InventoryERP\bin\Autofac.Integration.Mvc.xml
+F:\Workplace\Projects\code\InventoryERP\bin\MongoDB.Bson.xml
+F:\Workplace\Projects\code\InventoryERP\bin\MongoDB.Driver.xml
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.Helpers.xml
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.Http.xml
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.Http.SelfHost.xml
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.Http.WebHost.xml
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.Mvc.xml
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.Razor.xml
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.WebPages.xml
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.WebPages.Deployment.xml
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.WebPages.Razor.xml
+F:\Workplace\Projects\code\InventoryERP\bin\System.Web.Optimization.xml
+F:\Workplace\Projects\code\InventoryERP\bin\Newtonsoft.Json.xml
+F:\Workplace\Projects\code\InventoryERP\bin\Antlr3.Runtime.pdb
+F:\Workplace\Projects\code\InventoryERP\bin\EntityFramework.xml
+F:\Workplace\Projects\code\InventoryERP\bin\EntityFramework.SqlServer.xml
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.xml
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.Security.xml
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.Security.Google.xml
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Workplace\Projects\code\InventoryERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Workplace\Projects\code\InventoryERP\bin\System.Net.Http.Formatting.xml
+F:\Workplace\Projects\code\InventoryERP\obj\Debug\InventoryERP.Web.csprojResolveAssemblyReference.cache
+F:\Workplace\Projects\code\InventoryERP\obj\Debug\InventoryERP.dll
+F:\Workplace\Projects\code\InventoryERP\obj\Debug\InventoryERP.pdb
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\InventoryERP.dll.config
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\InventoryERP.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\InventoryERP.pdb
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Antlr3.Runtime.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Autofac.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Autofac.Integration.Mvc.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\EntityFramework.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\EntityFramework.SqlServer.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\InventoryERP.Service.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\InvertoryERP.Core.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.Security.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.Security.Google.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\MongoDB.Bson.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\MongoDB.Driver.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Newtonsoft.Json.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Owin.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.Helpers.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.Http.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.Http.SelfHost.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.Http.WebHost.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.Mvc.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.Optimization.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.Razor.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.WebPages.Deployment.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.WebPages.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.WebPages.Razor.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\T4MVCExtensions.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\WebGrease.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Net.Http.Formatting.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\InventoryERP.Service.pdb
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\InvertoryERP.Core.pdb
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Autofac.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Autofac.Integration.Mvc.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\MongoDB.Bson.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\MongoDB.Driver.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.Helpers.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.Http.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.Http.SelfHost.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.Http.WebHost.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.Mvc.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.Razor.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.WebPages.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.WebPages.Deployment.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.WebPages.Razor.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Web.Optimization.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Newtonsoft.Json.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Antlr3.Runtime.pdb
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\EntityFramework.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\EntityFramework.SqlServer.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.Security.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.Security.Google.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\bin\System.Net.Http.Formatting.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\obj\Debug\InventoryERP.Web.csprojResolveAssemblyReference.cache
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\obj\Debug\InventoryERP.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InventoryERP\obj\Debug\InventoryERP.pdb

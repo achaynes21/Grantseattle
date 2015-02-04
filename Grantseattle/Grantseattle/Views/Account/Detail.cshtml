@@ -1,0 +1,243 @@
+﻿@model SilentAction.Web.Models.MemberProfileViewModel
+
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_SubLayout.cshtml";
+}
+
+
+@{
+    var memberId = Model.Id;
+
+    string memberPhotoPath = "{0}/media/members/{1}".FormatWith((SilentAction.Core.App.Configurations.PreviewMode.Value ? "/preview" : ""), memberId);
+    string memberPhotoPlaceholderfullpath = "{0}/content/img/{1}".FormatWith((SilentAction.Core.App.Configurations.PreviewMode.Value ? "/preview" : ""), SilentAction.Core.App.Configurations.MemberPhotoPlaceHolder.Value);
+
+    bool memberPhotoExist = false;
+
+    try
+    {
+        string memberfullPath = Server.MapPath("~/media");
+        memberfullPath = Path.Combine(memberfullPath, "campaigns\\{0}\\{1}".FormatWith(memberId, Model.MemberPhoto));
+
+        if (System.IO.File.Exists(memberfullPath))
+        {
+            memberPhotoExist = true;
+        }
+
+    }
+    catch
+    {
+
+    }
+}
+
+<article class="campaign-detail">
+    <section class="header-section align-center">
+        <div class="container">
+            <h2 class="page-title">@Model.FullName</h2>
+            <h4>@(Model.NumberofCreatedCampaign > 0 ? "Created " + Model.NumberofCreatedCampaign + " Campaigns" : "No campaigns created yet")</h4>
+        </div>
+    </section>
+
+    <section class="detail-section">
+        <div class="container">
+            <section class="top-section">
+                <div class="profile-info-container">
+                    <div class="profile-info">
+                        <img src="@(memberPhotoExist ? memberPhotoPath + "/" + Model.MemberPhoto : memberPhotoPlaceholderfullpath)" alt="" />
+                        <div class="detail">
+                            <p>
+                                @Model.Summary
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="profile-info-links">
+                        @if(Model.Website.IsNotNullOrWhiteSpace())
+                        {
+                        <li>
+                            <em class="fa fa-link"></em>
+                            <a href="@Model.Website" rel="nofollow">http://www.gsmith.com</a>
+                        </li>
+                        }
+                        @if(Model.TwitterUrl.IsNotNullOrWhiteSpace())
+                        {
+                        <li>
+                            <em class="fa fa-twitter"></em>
+                            <a href="@Model.TwitterUrl" rel="nofollow">http://twitter.com/gsmith</a>
+                        </li>
+                        }
+                        @if(Model.FacebookUrl.IsNotNullOrWhiteSpace())
+                        {
+                        <li>
+                            <em class="fa fa-facebook"></em>
+                            <a href="@Model.FacebookUrl" rel="nofollow">http://facebook.com/gsmith</a>
+                        </li>
+                        }
+                    </ul>
+                </div>
+            </section>
+
+            <section class="body-section">
+                <ul class="nav nav-tabs campaign-tabs" role="tablist">
+                    <li class="active"><a href="#profile-campaigns" role="tab">Campaigns</a></li>
+                    <li><a href="#profile-auctions" role="tab">Auctions</a></li>
+                </ul>
+                <div class="campaigns-container">
+                    <div id="profile-campaigns" class="campaigns active">
+                        <section class="campaign-section" id="campaignContainer">
+                            @Html.Partial(MVC.Account.Views.Partials._Campaigns, Model.CampaignList)
+                        </section>
+
+                        <div class="clear"></div>
+                    </div>
+                    <div id="profile-auctions" class="campaigns auctions">
+                        <section class="auction-section">
+                            @Html.Partial(MVC.Account.Views.Partials._Auctions, Model.AuctionList)
+                        </section>
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                @*<div class="campaigns">
+                    <section id="campaignContainer">
+                        
+                    </section>
+
+                    <div class="clear"></div>
+
+                    <div class="more-campaigns-loader loader"></div>
+                </div>*@
+            </section>
+
+            <input type="hidden" value="@( Model.CampaignList.Campaigns.HasNextPage ? Model.CampaignList.Campaigns.PageIndex + 1: 0)" id="txtCampaignpageIndex" />
+            <input type="hidden" value="@( Model.CampaignList.Category.IsNotNullOrWhiteSpace() ? Model.CampaignList.Category: "All")" id="txtCampaigncategoryIndex" />
+            <input type="hidden" value="@( Model.CampaignList.Filter.IsNotNullOrWhiteSpace() ? Model.CampaignList.Filter : "RecentlyAdded")" id="txtCampaignFilterIndex" />
+
+            <input type="hidden" value="@( Model.AuctionList.Auctions.HasNextPage ? Model.AuctionList.Auctions.PageIndex + 1: 0)" id="txtAuctionIndex" />
+            <input type="hidden" value="@( Model.AuctionList.Category.IsNotNullOrWhiteSpace() ? Model.AuctionList.Category: "All")" id="txtAuctioncategoryIndex" />
+            <input type="hidden" value="@( Model.AuctionList.Filter.IsNotNullOrWhiteSpace() ? Model.AuctionList.Filter : "RecentlyAdded")" id="txtAuctionFilterIndex" />
+        </div>
+    </section>
+</article>
+
+@section scripts
+{
+
+    <script>
+        var campaigns = 0, totalCampaigns = 16, isCampaignLoading = false,
+			auctions = 0, totalAuctions = 16, isAuctionLoading = false,
+			jWindow, jCampaigns, jAuctions;
+
+        function loadMoreCampaigns() {
+            if (jCampaigns.parent().is(":visible") && (jWindow.scrollTop() + jWindow.height()) > jQuery('.campaigns article:last-child').offset().top) {
+
+                if (isCampaignLoading == false) {
+                    isCampaignLoading = true;
+
+                    if (campaigns < totalCampaigns) {
+                        SilentAction.Loader.show('.more-campaigns-loader');
+
+                        var category = jQuery('#txtCampaignCategoryIndex').val();
+                        var filter = jQuery('#txtCampaignFilterIndex').val();
+                        var pageIndex = jQuery('#txtCampaignpageIndex').val();
+
+                        jQuery.ajax({
+                            url: '@Url.RouteUrl(MVC.RouteNames.Campaign.Campaigns, new { isPartial = true})',
+                            type: 'GET',
+                            data: { category: category, filter: filter, pageIndex: pageIndex },
+                            dataType: 'html',
+                        }).done(function (data, textStatus, jqXHR) {
+
+                            // setTimeout() should be removed
+                            // in production version
+                            //setTimeout(function () {
+
+                                var items = jQuery('<div>' + data + '</div>').children();
+                                jCampaigns.append(items);
+                                SilentAction.Campaign.update(jCampaigns, items);
+
+                                SilentAction.Loader.hide('.more-campaigns-loader');
+
+                                campaigns = jCampaigns.children().length;
+
+                                isCampaignLoading = false;
+
+                            //}, 1000);
+                        });
+                    } else {
+                        SilentAction.WindowScroll.remove(loadMoreCampaigns);
+                        SilentAction.Loader.hide('.more-campaigns-loader');
+                    }
+                }
+            }
+        }
+
+        function loadMoreAuctions() {
+            if (jAuctions.parent().is(":visible") && (jWindow.scrollTop() + jWindow.height()) > jQuery('.auction-section article:last-child').offset().top) {
+
+                if (isAuctionLoading == false) {
+                    isAuctionLoading = true;
+
+                    if (auctions < totalAuctions) {
+                        SilentAction.Loader.show('.more-campaigns-loader');
+
+                        var category = jQuery('#txtAuctioncategoryIndex').val();
+                        var filter = jQuery('#txtAuctionFilterIndex').val();
+                        var pageIndex = jQuery('#txtAuctionIndex').val();
+
+                        jQuery.ajax({
+                            url: '@Url.RouteUrl(MVC.RouteNames.Auction.AuctionList, new { isPartial = true})',
+                            type: 'GET',
+                            data: { category: category, filter: filter, pageIndex: pageIndex },
+                            dataType: 'html',
+                        }).done(function (data, textStatus, jqXHR) {
+
+                            // setTimeout() should be removed
+                            // in production version
+                            //setTimeout(function () {
+
+                                var items = jQuery('<div>' + data + '</div>').children();
+                                jAuctions.append(items);
+                                SilentAction.Campaign.update(jAuctions, items);
+
+                                SilentAction.Loader.hide('.more-campaigns-loader');
+
+                                auctions = jAuctions.children().length;
+
+                                isAuctionLoading = false;
+
+                            //}, 1000);
+                        });
+                    } else {
+                        SilentAction.WindowScroll.remove(loadMoreAuctions);
+                        SilentAction.Loader.hide('.more-campaigns-loader');
+                    }
+                }
+            }
+        }
+
+        function init() {
+            jWindow = jQuery(window);
+
+            SilentAction.Campaign.init();
+
+            jQuery('.campaign-tabs a').click(function (e) {
+                e.preventDefault();
+                jQuery(this).tab('show');
+            }).on('shown.bs.tab', function (e) {
+                SilentAction.Campaign.init();
+            });
+
+            jCampaigns = jQuery('.campaign-section');
+            jAuctions = jQuery('.auction-section');
+
+            campaigns = jCampaigns.children().length;
+            auctions = jAuctions.children().length;
+        }
+
+        SilentAction.WindowScroll.add(loadMoreCampaigns);
+        SilentAction.WindowScroll.add(loadMoreAuctions);
+
+        SilentAction.DOM_Ready.add(init);
+    </script>
+}

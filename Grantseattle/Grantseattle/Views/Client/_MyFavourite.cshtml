@@ -1,0 +1,86 @@
+﻿@using InvertoryERP.Core.Domain
+<div class="container" id="searchResult">
+
+    <!-- Actual content -->
+    <div class="rs-property">
+        <br />
+        <!-- Block heading two -->
+        <div class="block-heading-two">
+            <h3><span>Latest Coming Property</span></h3>
+        </div>
+        @{
+            List<Propertys> propertyList = ViewBag.PropertyList;
+            int jj = 0;
+        }
+        @for (int i = 0; i < propertyList.Count / 3 + 1; i++)
+        {
+            int kk = 0;
+            <div class="row">
+                @for (; jj < propertyList.Count; jj++)
+                {
+                    kk++;
+                    int fIndex = propertyList[jj].PropertyImageses[0].ImageUrl.IndexOf("Images", System.StringComparison.Ordinal);
+                    <div class="col-md-4 col-sm-4">
+                        <!-- Real estate property item -->
+                        <div class="property-item">
+                            <div class="img-container">
+                                <!-- Product Image -->
+                                <img class="img-responsive" src="@propertyList[jj].PropertyImageses[0].ImageUrl.Substring(fIndex)" alt="" height="500px" width="400px" />
+                                <span class="hover-top bg-color">@propertyList[jj].PropertyType.Name</span>
+                                <span class="hover-bottom bg-red">@propertyList[jj].PropertyPurpose.Name</span>
+                            </div>
+                            <!-- product title -->
+                            <h4><a href="http://grantseattle.com">@propertyList[jj].PropertyDetails.StreetAddress1 - @propertyList[jj].PropertyDetails.StreetAddress2</a></h4>
+                            <!-- product details -->
+                            <div class="property-details">
+                                <a class="ecom pull-right" href="#">More info</a>
+                                <!-- price -->
+                                <span class="price pull-left">$@propertyList[jj].Price</span>
+                                <div class="clearfix"></div>
+                            </div>
+                            @*<div>
+                                <input type="button" class="btn btn-primary favouriteProperty" data-propertid="@propertyList[jj].Id" value="Add To Favourite" />
+                            </div>*@
+                            <!-- Info -->
+                            <div class="p-info">
+                                <a href="#">@propertyList[jj].PropertyDetails.BedCount Bed</a>
+                                <a href="#"> @propertyList[jj].PropertyDetails.BathCount Bath</a>
+                                <a href="#">@propertyList[jj].PropertyDetails.AreaCount ft<sup>2</sup></a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <!-- Property Details List -->
+                            <ul class="list-3">
+                                <li>@propertyList[jj].PropertyDetails.BedCount Beds, @propertyList[jj].PropertyDetails.BathCount Bath</li>
+                                <li><strong>Area</strong>: @propertyList[jj].PropertyDetails.AreaCount ft<sup>2</sup></li>
+                                @*<li><strong>Lawn</strong>: 354ft<sup>2</sup></li>
+                                    <li><strong>Year</strong>: 2004</li>*@
+                                <li><strong>Parking</strong>: @propertyList[jj].PropertyDetails.ParkingCount</li>
+                                <li><strong>Status</strong>: @propertyList[jj].PropertyPurpose.Name</li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    if (kk == 3)
+                    {
+                        jj = kk;
+                        break;
+                    }
+                }
+            </div>
+        }
+
+        <hr />
+
+        <!-- pagination -->
+        <ul class="pagination">
+            <li class="disabled"><a href="#">«</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">»</a></li>
+        </ul>
+    </div>
+</div>
+

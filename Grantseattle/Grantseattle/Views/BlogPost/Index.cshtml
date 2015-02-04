@@ -1,0 +1,61 @@
+﻿@model IEnumerable<InvertoryERP.Core.Domain.BlogContent>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_SubLayout.cshtml";
+}
+<section class="container">
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table table-bordered table-condensed table-hover table-responsive table-striped">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tags)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpdatedAt)
+            </th>
+            <th>Action</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tags)
+                </td>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.Content)
+                </td>*@
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedAt)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UpdatedAt)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+</section>

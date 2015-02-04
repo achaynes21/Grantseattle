@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>@ViewBag.Title - Grantseattle Admin Panel </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="~/Content/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <!-- Fonts -->
+    <link href="~/Content/css/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/css/typicons/typicons.min.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,700,600,500,900,800' rel='stylesheet' type='text/css'>
+    <link href="~/Scripts/selectize/css/selectize.css" rel="stylesheet" />
+    <link href="~/Scripts/selectize/css/selectize.default.css" rel="stylesheet" />
+    <link href="~/Scripts/zebra_datepicker/css/bootstrap.css" rel="stylesheet" />
+    <!-- Custom Theme CSS -->
+    <link href="~/Content/css/default.css" rel="stylesheet">
+    <link href="~/Content/css/simplr.css" rel="stylesheet">
+    <link href="~/Content/css/styles.css" rel="stylesheet">
+    <link href="~/Content/css/responsive.css" rel="stylesheet">
+    <link href="~/Content/css/animate.css" rel="stylesheet">
+
+    <link href="~/Scripts/file-uploader/css/jquery.fileupload.css" rel="stylesheet" />
+    <link href="~/Scripts/file-uploader/css/jquery.fileupload-ui.css" rel="stylesheet" />
+    @RenderSection("css", required: false)
+    <!--[if lt IE 9]>
+        <link href="~/Contents/styles-ie8.css" rel="stylesheet">
+    <![endif]-->
+    <!-- jquery Respond Plugin for IE8 -->
+    <script src="~/Scripts/respond.js"></script>
+    <script src="~/Scripts/html5shiv.js"></script>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom" class="animated fadeIn delay1">
+    <div class="wrapper">
+        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand " href="@Url.RouteUrl(MVC.RouteNames.Account.SignIn)">
+                        <h1 class="fontawesome-icon">Grantseattle Admin</h1>
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-left navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+
+                        @if (!InventoryERP.Core.HttpContextHelper.IsAuthenticated)
+                        {
+                            @*var currentSignInCSS = Request.Url.ToString().ToLower().Contains(Url.RouteUrl(MVC.RouteNames.Account.SignIn).ToLower()) ? "active" : "";
+                                //var currentSignUpCSS = Request.Url.ToString().ToLower().Contains(Url.RouteUrl(MVC.RouteNames.Account.SignUp).ToLower()) ? "active" : "";
+
+                                <li class="page-scroll @currentSignInCSS">
+                                    <a href="@Url.RouteUrl(MVC.RouteNames.Account.SignIn)">Sign In</a>
+                                </li>*@
+                            @*<li class="page-scroll @currentSignUpCSS">
+                                    <a href="@Url.RouteUrl(MVC.RouteNames.Account.SignUp)">Sign Up</a>
+                                </li>*@
+                        }
+                        else
+                        {
+                            <li class="page-scroll">
+                                <a href="@Url.Action("#", "#")">Home</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="@Url.Action("#", "#")">My Favourite</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="@Url.Action("#", "#")">Our Services</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="@Url.Action("#", "#")">Blog</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="@Url.Action("PublishNews", "NewsPortal")">News</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="@Url.Action("#", "#")">About Us</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="@Url.Action("#", "#")">Contact Us</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="@Url.RouteUrl(MVC.RouteNames.Account.SignOut)">Sign Out</a>
+                            </li>
+                        }
+
+                        @*<li class="page-scroll">
+                                <a href="@Url.RouteUrl(MVC.RouteNames.Home.FAQ)">FAQ</a>
+                            </li>*@
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+        <section class="page-content">
+            @RenderBody()
+        </section>
+        <!-- footer -->
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-8 col-lg-8">
+                        <p>&copy; Copyright 2015 - # - All Rights Reserved.</p>
+                    </div><!-- col lg 6 -->
+
+                </div><!-- row -->
+            </div><!-- container -->
+        </section>
+        <!-- footer -->
+        <div class="dropdown-bg"></div>
+    </div>
+
+    <!-- Core JavaScript Files -->
+    <script src="~/Scripts/jquery-1.11.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.10.4.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.easing.min.js"></script>
+    <script src="~/Scripts/jquery.masonry-3.1.5.js"></script>
+    <script src="~/Scripts/imagesloaded.min.js"></script>
+    <script src="~/Scripts/selectize/selectize.min.js"></script>
+    <script src="~/Scripts/zebra_datepicker/zebra_datepicker.js"></script>
+    <script src="~/Scripts/numericfield.js"></script>
+
+    <script src="~/Scripts/file-uploader/jquery.fileupload.js"></script>
+    <script src="~/Scripts/file-uploader/jquery.fileupload-ui.js"></script>
+    <script src="~/Scripts/file-uploader/jquery.iframe-transport.js"></script>
+    <script src="~/Scripts/file-uploader/jquery.xdr-transport.js"></script>
+    <script src="~/Scripts/file-uploader/jquery.fileupload-process.js"></script>
+    <script src="~/Scripts/file-uploader/jquery.fileupload-image.js"></script>
+    <script src="~/Scripts/file-uploader/jquery.fileupload-validate.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="~/Scripts/simplr.js"></script>
+    <script src="~/Scripts/modernizr.custom.js"></script>
+    <script src="~/Scripts/toucheffects.js"></script>
+    <script src="~/Scripts/heartcode-canvasloader-min.js"></script>
+    <script src="~/Scripts/services.js"></script>
+    <script src="~/Scripts/scripts.js"></script>
+    <script src="~/Scripts/locationLookup.js"></script>
+
+
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+
+

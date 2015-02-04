@@ -1,0 +1,44 @@
+﻿@model InventoryERP.Models.PropertyImagesModelView
+
+@{
+    ViewBag.Title = "PropertyImagesModelView";
+    Layout = "~/Views/Shared/_SubLayout.cshtml";
+}
+<link href="~/Content/styleUploader.css" rel="stylesheet" />
+
+<section class="container">
+    <div class="subContent" style="width: 700px;margin: 50px auto">
+        @using (Html.BeginForm("FinallyPropertySave", "PropertyListing", System.Web.Mvc.FormMethod.Post, new { EncType = "multipart/form-data", id = "upload" }))
+        {
+            <div id="drop">
+                Drop Here
+                <a>Browse</a>
+                <input type="file" name="file" multiple />
+            </div>
+
+            <ul>
+                <!-- The file uploads will be shown here -->
+            </ul>
+        }
+    </div>
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+</section>
+
+@section scripts {
+<script src="~/Scripts/MultipleFileUpload/jquery.knob.js"></script>
+<script src="~/Scripts/MultipleFileUpload/jquery.ui.widget.js"></script>
+<script src="~/Scripts/MultipleFileUpload/jquery.iframe-transport.js"></script>
+<script src="~/Scripts/MultipleFileUpload/jquery.fileupload.js"></script>
+
+<script src="~/Scripts/MultipleFileUpload/FileUploadScript.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#finish").click(function () {
+                var jqXHR = data.submit();
+            });
+        });
+    </script>
+}

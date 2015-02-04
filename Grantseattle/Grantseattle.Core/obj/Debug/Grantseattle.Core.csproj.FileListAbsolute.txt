@@ -1,0 +1,153 @@
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\bin\Debug\InvertoryERP.Core.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\bin\Debug\InvertoryERP.Core.pdb
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\bin\Debug\MongoDB.Bson.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\bin\Debug\MongoDB.Driver.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\bin\Debug\Newtonsoft.Json.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\bin\Debug\MongoDB.Bson.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\bin\Debug\MongoDB.Driver.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\bin\Debug\Newtonsoft.Json.xml
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\obj\Debug\InvertoryERP.Core.dll
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\obj\Debug\InvertoryERP.Core.pdb
+D:\Project\Inventory Management\24-09-2014-Code\code\InvertoryERP.Core\obj\Debug\Grantseattle.Core.csprojResolveAssemblyReference.cache
+D:\My Work\code\InvertoryERP.Core\bin\Debug\InvertoryERP.Core.dll
+D:\My Work\code\InvertoryERP.Core\bin\Debug\InvertoryERP.Core.pdb
+D:\My Work\code\InvertoryERP.Core\bin\Debug\MongoDB.Bson.dll
+D:\My Work\code\InvertoryERP.Core\bin\Debug\MongoDB.Driver.dll
+D:\My Work\code\InvertoryERP.Core\bin\Debug\Newtonsoft.Json.dll
+D:\My Work\code\InvertoryERP.Core\bin\Debug\MongoDB.Bson.xml
+D:\My Work\code\InvertoryERP.Core\bin\Debug\MongoDB.Driver.xml
+D:\My Work\code\InvertoryERP.Core\bin\Debug\Newtonsoft.Json.xml
+D:\My Work\code\InvertoryERP.Core\obj\Debug\Grantseattle.Core.csprojResolveAssemblyReference.cache
+D:\My Work\code\InvertoryERP.Core\obj\Debug\InvertoryERP.Core.dll
+D:\My Work\code\InvertoryERP.Core\obj\Debug\InvertoryERP.Core.pdb
+C:\Users\Taskin\Desktop\TEst\code\Grantseattle.Core\bin\Debug\InvertoryERP.Core.dll
+C:\Users\Taskin\Desktop\TEst\code\Grantseattle.Core\bin\Debug\InvertoryERP.Core.pdb
+C:\Users\Taskin\Desktop\TEst\code\Grantseattle.Core\bin\Debug\MongoDB.Bson.dll
+C:\Users\Taskin\Desktop\TEst\code\Grantseattle.Core\bin\Debug\MongoDB.Driver.dll
+C:\Users\Taskin\Desktop\TEst\code\Grantseattle.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Taskin\Desktop\TEst\code\Grantseattle.Core\bin\Debug\MongoDB.Bson.xml
+C:\Users\Taskin\Desktop\TEst\code\Grantseattle.Core\bin\Debug\MongoDB.Driver.xml
+C:\Users\Taskin\Desktop\TEst\code\Grantseattle.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Taskin\Desktop\TEst\code\Grantseattle.Core\obj\Debug\InvertoryERP.Core.dll
+C:\Users\Taskin\Desktop\TEst\code\Grantseattle.Core\obj\Debug\InvertoryERP.Core.pdb
+C:\Users\Taskin\Desktop\TEst\New folder\code\Grantseattle.Core\bin\Debug\InvertoryERP.Core.dll
+C:\Users\Taskin\Desktop\TEst\New folder\code\Grantseattle.Core\bin\Debug\InvertoryERP.Core.pdb
+C:\Users\Taskin\Desktop\TEst\New folder\code\Grantseattle.Core\bin\Debug\MongoDB.Bson.dll
+C:\Users\Taskin\Desktop\TEst\New folder\code\Grantseattle.Core\bin\Debug\MongoDB.Driver.dll
+C:\Users\Taskin\Desktop\TEst\New folder\code\Grantseattle.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Taskin\Desktop\TEst\New folder\code\Grantseattle.Core\bin\Debug\MongoDB.Bson.xml
+C:\Users\Taskin\Desktop\TEst\New folder\code\Grantseattle.Core\bin\Debug\MongoDB.Driver.xml
+C:\Users\Taskin\Desktop\TEst\New folder\code\Grantseattle.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Taskin\Desktop\TEst\New folder\code\Grantseattle.Core\obj\Debug\Grantseattle.Core.csprojResolveAssemblyReference.cache
+C:\Users\Taskin\Desktop\TEst\New folder\code\Grantseattle.Core\obj\Debug\InvertoryERP.Core.dll
+C:\Users\Taskin\Desktop\TEst\New folder\code\Grantseattle.Core\obj\Debug\InvertoryERP.Core.pdb
+D:\My Work\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\InvertoryERP.Core.dll
+D:\My Work\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\InvertoryERP.Core.pdb
+D:\My Work\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\MongoDB.Bson.dll
+D:\My Work\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\MongoDB.Driver.dll
+D:\My Work\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\Newtonsoft.Json.dll
+D:\My Work\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\MongoDB.Bson.xml
+D:\My Work\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\MongoDB.Driver.xml
+D:\My Work\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\Newtonsoft.Json.xml
+D:\My Work\RealEstate Grantseattle\code\Grantseattle.Core\obj\Debug\InvertoryERP.Core.dll
+D:\My Work\RealEstate Grantseattle\code\Grantseattle.Core\obj\Debug\InvertoryERP.Core.pdb
+D:\Project\Freelancing\RealEstate-Grantseattle\26-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\InvertoryERP.Core.dll
+D:\Project\Freelancing\RealEstate-Grantseattle\26-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\InvertoryERP.Core.pdb
+D:\Project\Freelancing\RealEstate-Grantseattle\26-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\MongoDB.Bson.dll
+D:\Project\Freelancing\RealEstate-Grantseattle\26-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\MongoDB.Driver.dll
+D:\Project\Freelancing\RealEstate-Grantseattle\26-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\Newtonsoft.Json.dll
+D:\Project\Freelancing\RealEstate-Grantseattle\26-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\MongoDB.Bson.xml
+D:\Project\Freelancing\RealEstate-Grantseattle\26-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\MongoDB.Driver.xml
+D:\Project\Freelancing\RealEstate-Grantseattle\26-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\Newtonsoft.Json.xml
+D:\Project\Freelancing\RealEstate-Grantseattle\26-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\obj\Debug\InvertoryERP.Core.dll
+D:\Project\Freelancing\RealEstate-Grantseattle\26-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\obj\Debug\InvertoryERP.Core.pdb
+D:\Project\Freelancing\RealEstate-Grantseattle\26-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\obj\Debug\Grantseattle.Core.csprojResolveAssemblyReference.cache
+D:\My Work\Grantseattle\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\InvertoryERP.Core.dll
+D:\My Work\Grantseattle\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\InvertoryERP.Core.pdb
+D:\My Work\Grantseattle\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\MongoDB.Bson.dll
+D:\My Work\Grantseattle\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\MongoDB.Driver.dll
+D:\My Work\Grantseattle\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\Newtonsoft.Json.dll
+D:\My Work\Grantseattle\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\MongoDB.Bson.xml
+D:\My Work\Grantseattle\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\MongoDB.Driver.xml
+D:\My Work\Grantseattle\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\Newtonsoft.Json.xml
+D:\My Work\Grantseattle\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\obj\Debug\InvertoryERP.Core.dll
+D:\My Work\Grantseattle\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\obj\Debug\InvertoryERP.Core.pdb
+D:\Project\Freelancing\27-1-2015\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\InvertoryERP.Core.dll
+D:\Project\Freelancing\27-1-2015\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\InvertoryERP.Core.pdb
+D:\Project\Freelancing\27-1-2015\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\MongoDB.Bson.dll
+D:\Project\Freelancing\27-1-2015\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\MongoDB.Driver.dll
+D:\Project\Freelancing\27-1-2015\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\Newtonsoft.Json.dll
+D:\Project\Freelancing\27-1-2015\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\MongoDB.Bson.xml
+D:\Project\Freelancing\27-1-2015\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\MongoDB.Driver.xml
+D:\Project\Freelancing\27-1-2015\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\bin\Debug\Newtonsoft.Json.xml
+D:\Project\Freelancing\27-1-2015\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\obj\Debug\InvertoryERP.Core.dll
+D:\Project\Freelancing\27-1-2015\27-1-2015\RealEstate Grantseattle\code\Grantseattle.Core\obj\Debug\InvertoryERP.Core.pdb
+D:\My Work\Grantseattle\29-1-2015\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\InvertoryERP.Core.dll
+D:\My Work\Grantseattle\29-1-2015\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\InvertoryERP.Core.pdb
+D:\My Work\Grantseattle\29-1-2015\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\MongoDB.Bson.dll
+D:\My Work\Grantseattle\29-1-2015\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\MongoDB.Driver.dll
+D:\My Work\Grantseattle\29-1-2015\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\Newtonsoft.Json.dll
+D:\My Work\Grantseattle\29-1-2015\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\MongoDB.Bson.xml
+D:\My Work\Grantseattle\29-1-2015\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\MongoDB.Driver.xml
+D:\My Work\Grantseattle\29-1-2015\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\Newtonsoft.Json.xml
+D:\My Work\Grantseattle\29-1-2015\RealEstate-Grantseattle-master\Grantseattle.Core\obj\Debug\InvertoryERP.Core.dll
+D:\My Work\Grantseattle\29-1-2015\RealEstate-Grantseattle-master\Grantseattle.Core\obj\Debug\InvertoryERP.Core.pdb
+D:\My Work\Grantseattle\29-1-2015\RealEstate-Grantseattle-master\Grantseattle.Core\obj\Debug\Grantseattle.Core.csprojResolveAssemblyReference.cache
+D:\Project\Freelancing\GitRealEstate\RealEstate-Grantseattle\Grantseattle.Core\bin\Debug\InvertoryERP.Core.dll
+D:\Project\Freelancing\GitRealEstate\RealEstate-Grantseattle\Grantseattle.Core\bin\Debug\InvertoryERP.Core.pdb
+D:\Project\Freelancing\GitRealEstate\RealEstate-Grantseattle\Grantseattle.Core\bin\Debug\MongoDB.Bson.dll
+D:\Project\Freelancing\GitRealEstate\RealEstate-Grantseattle\Grantseattle.Core\bin\Debug\MongoDB.Driver.dll
+D:\Project\Freelancing\GitRealEstate\RealEstate-Grantseattle\Grantseattle.Core\bin\Debug\Newtonsoft.Json.dll
+D:\Project\Freelancing\GitRealEstate\RealEstate-Grantseattle\Grantseattle.Core\bin\Debug\MongoDB.Bson.xml
+D:\Project\Freelancing\GitRealEstate\RealEstate-Grantseattle\Grantseattle.Core\bin\Debug\MongoDB.Driver.xml
+D:\Project\Freelancing\GitRealEstate\RealEstate-Grantseattle\Grantseattle.Core\bin\Debug\Newtonsoft.Json.xml
+D:\Project\Freelancing\GitRealEstate\RealEstate-Grantseattle\Grantseattle.Core\obj\Debug\InvertoryERP.Core.dll
+D:\Project\Freelancing\GitRealEstate\RealEstate-Grantseattle\Grantseattle.Core\obj\Debug\InvertoryERP.Core.pdb
+D:\Project\Freelancing\GitRealEstate\RealEstate-Grantseattle\Grantseattle.Core\obj\Debug\Grantseattle.Core.csprojResolveAssemblyReference.cache
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\obj\Debug\Grantseattle.Core.csprojResolveAssemblyReference.cache
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\InvertoryERP.Core.dll
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\InvertoryERP.Core.pdb
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\MongoDB.Bson.dll
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\MongoDB.Driver.dll
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\Newtonsoft.Json.dll
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\System.Web.Helpers.dll
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\System.Web.Mvc.dll
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\System.Web.Razor.dll
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\System.Web.WebPages.dll
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\MongoDB.Bson.xml
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\MongoDB.Driver.xml
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\Newtonsoft.Json.xml
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\System.Web.Helpers.xml
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\System.Web.Mvc.xml
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\System.Web.Razor.xml
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\System.Web.WebPages.xml
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\obj\Debug\InvertoryERP.Core.dll
+E:\Work\OWN-Repos\RealEstate-Grantseattle-master\RealEstate-Grantseattle-master\Grantseattle.Core\obj\Debug\InvertoryERP.Core.pdb
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\InvertoryERP.Core.dll
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\InvertoryERP.Core.pdb
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\MongoDB.Bson.dll
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\MongoDB.Driver.dll
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\Newtonsoft.Json.dll
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\System.Web.Helpers.dll
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\System.Web.Mvc.dll
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\System.Web.Razor.dll
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\System.Web.WebPages.dll
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\System.Web.WebPages.Razor.dll
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\MongoDB.Bson.xml
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\MongoDB.Driver.xml
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\Newtonsoft.Json.xml
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\System.Web.Helpers.xml
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\System.Web.Mvc.xml
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\System.Web.Razor.xml
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\System.Web.WebPages.xml
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\My Work\Grantseattle\Grantseattle.Core\bin\Debug\System.Web.WebPages.Razor.xml
+D:\My Work\Grantseattle\Grantseattle.Core\obj\Debug\InvertoryERP.Core.dll
+D:\My Work\Grantseattle\Grantseattle.Core\obj\Debug\InvertoryERP.Core.pdb

@@ -1,0 +1,16 @@
+﻿@model InventoryERP.Web.Models.ItemListViewModel
+@{
+    ViewBag.Title = "Create Item";
+    Layout = "~/Views/Shared/_SubLayout.cshtml";
+}
+
+<div class="container">
+    <section class="item-section">
+        <h1 class="page-title">Items</h1>
+
+        <div class="comments-container">
+            @Html.Partial(MVC.Item.Views.Partial._Items, Model)
+        </div>
+    </section>
+    <div class="clear"></div>
+</div>

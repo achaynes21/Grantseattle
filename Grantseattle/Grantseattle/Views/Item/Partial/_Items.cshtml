@@ -1,0 +1,74 @@
+﻿@model InventoryERP.Web.Models.ItemListViewModel
+
+@if (Model.Items != null && Model.Items.Count > 0)
+{
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>Name</th>
+            <th>Brand Name</th>
+            <th>Model No</th>
+            <th class="text-center">Price</th>
+            <th class="text-center">Create Date</th>
+        </tr>
+        @foreach (var item in Model.Items)
+        {
+            <tr class="item">
+                <th>
+                    @item.Name
+                </th>
+                <th>
+                    @item.BrandName
+                </th>
+                <th>
+                    @item.ModelNo
+                </th>
+                <th class="text-center">
+                    @item.Price
+                </th>
+                <th class="text-center">
+                    @item.CreatedAt
+                </th>
+            </tr>
+        }
+    </table>
+
+    <div class="row">
+        <div class="col-sm-6 pagination text-center">
+            <p>Showing items @Model.Items.Count of @Model.Items.TotalCount</p>
+        </div>
+        <div class="col-sm-6">
+            @*<div class="align-center">*@
+                <ul class="pagination">
+                    @if (Model.Items.HasPreviousPage)
+                    {
+                        <li><a href="@Url.RouteUrl(MVC.RouteNames.Item.ItemList, new { sortBy = Model.SortBy, sortOrder = Model.SortOrder, searchString = Model.SearchString, pageIndex = Model.Items.PageIndex - 1})">&laquo;</a></li>
+                    }
+                    @if (Model.Items.HasPreviousPage)
+                    {
+                        <li><a href="@Url.RouteUrl(MVC.RouteNames.Item.ItemList, new { sortBy = Model.SortBy, sortOrder = Model.SortOrder, searchString = Model.SearchString, pageIndex = Model.Items.PageIndex - 1 })">@((Model.Items.PageIndex - 1) + 1)</a></li>
+                    }
+
+                    <li class="active"><span>@(Model.Items.PageIndex + 1)</span></li>
+
+                    @if (Model.Items.HasNextPage)
+                    {
+                        <li><a href="@Url.RouteUrl(MVC.RouteNames.Item.ItemList, new { sortBy = Model.SortBy, sortOrder = Model.SortOrder, searchString = Model.SearchString, pageIndex = Model.Items.PageIndex + 1})">@((Model.Items.PageIndex + 1) + 1)</a></li>
+                    }
+
+                    @if (Model.Items.HasNextPage)
+                    {
+                        <li><a href="@Url.RouteUrl(MVC.RouteNames.Item.ItemList, new { sortBy = Model.SortBy, sortOrder = Model.SortOrder, searchString = Model.SearchString, pageIndex = Model.Items.PageIndex + 1})">&raquo;</a></li>
+                    }
+
+                </ul>
+            </div>
+        </div>
+    @*</div>*@
+    
+    
+
+}
+else
+{
+    <p>We are extremely <strong> sorry </strong> that there are no items available.</p>
+}
