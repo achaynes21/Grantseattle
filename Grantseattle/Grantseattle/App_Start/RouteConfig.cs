@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace InventoryERP
+namespace InventoryERP.App_Start
 {
     public class RouteConfig
     {
@@ -251,22 +251,6 @@ namespace InventoryERP
            );
             #endregion
 
-            #region Routes for Item Controlller
-
-            routes.MapRoute(
-               name: "CreateItem",
-               url: "create-item",
-               defaults: new { controller = "Item", action = "CreateItem" }
-           );
-
-            routes.MapRoute(
-               name: "ItemList",
-               url: "items",
-               defaults: new { controller = "Item", action = "ViewItems" }
-           );
-
-            #endregion
-
             #region Routes for Account Controller
 
             routes.MapRoute(
@@ -312,29 +296,7 @@ namespace InventoryERP
                 defaults: new { controller = "Account", action = "ForgotPassword" }
             );
 
-            //routes.MapRoute(
-            //    name: "EmailConfirmation",
-            //    url: "confirm-email",
-            //    defaults: new { controller = MVC.Account.Name, action = MVC.Account.ActionNames.EmailConfirmation }
-            //);
-
-            //routes.MapRoute(
-            //    name: "ResetPassword",
-            //    url: "reset-password",
-            //    defaults: new { controller = MVC.Account.Name, action = MVC.Account.ActionNames.ResetPassword }
-            //);
-
-            //routes.MapRoute(
-            //    name: "reset-password",
-            //    url: "reset-password",
-            //    defaults: new { controller = MVC.Account.Name, action = MVC.Account.ActionNames.ResetPassword, code = UrlParameter.Optional }
-            //);
-
-            //routes.MapRoute(
-            //    name: "confirm-email",
-            //    url: "confirm-email",
-            //    defaults: new { controller = MVC.Account.Name, action = MVC.Account.ActionNames.EmailConfirmation }
-            //);
+            
             routes.MapRoute(
                 name: "CreateAdmin",
                 url: "Admin",
@@ -350,39 +312,15 @@ namespace InventoryERP
                 defaults: new { controller = "Admin", action = "Index" }
             );
 
-            //routes.MapRoute(
-            //    name: "Help",
-            //    url: "help",
-            //    defaults: new { controller = MVC.Home.Name, action = MVC.Home.ActionNames.Help }
-            //);
-
-            routes.MapRoute(
+          routes.MapRoute(
                 name: "About",
                 url: "about-job",
                 defaults: new { controller = "Admin", action = "About" }
             );
 
-            //routes.MapRoute(
-            //    name: "TermsOfUse",
-            //    url: "terms-of-use",
-            //    defaults: new { controller = MVC.Home.Name, action = MVC.Home.ActionNames.TermsOfUse }
-            //);
-
-            //routes.MapRoute(
-            //    name: "PrivacyPolicy",
-            //    url: "privacy-policy",
-            //    defaults: new { controller = MVC.Home.Name, action = MVC.Home.ActionNames.PrivacyPolicy }
-            //);
-
-
             #endregion
 
-            //routes.MapRoute(
-            //    name: "Default",
-            //    url: "log-in",
-            //    defaults: new { controller = "Account", action = "SignIn" }
-            //);
-            routes.MapRoute(
+           routes.MapRoute(
                         name: "Default",
                         url: "Client",
                         defaults: new { controller = "Client", action = "Index" }
@@ -396,7 +334,7 @@ namespace InventoryERP
             routes.MapRoute(
                name: "404",
                url: "404",
-               defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+               defaults: new { controller = "Admin", action = "Index", id = UrlParameter.Optional }
            );
         }
     }
