@@ -174,4 +174,3 @@ D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Core\bin\
 D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Core\bin\Debug\System.Web.WebPages.Razor.xml
 D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Core\obj\Debug\InvertoryERP.Core.dll
 D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Core\obj\Debug\InvertoryERP.Core.pdb
-D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Core\obj\Debug\Grantseattle.Core.csprojResolveAssemblyReference.cache
