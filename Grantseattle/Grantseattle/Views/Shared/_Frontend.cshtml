@@ -117,15 +117,31 @@
                         <!-- Navigation starts.  -->
                         <div class="navy">
                             <ul>
-                                <!-- Main menu -->
-                                <li><a id="home" href="Client">Home</a></li>
-                                <li><a id="myFavourite" href="#">My Favorites</a></li>
-                                <li><a id="ourServices" href="#">Our Services</a></li>
-                                <li><a id="blog" href="#">Blog</a></li>
-                                <li><a id="news" href="#">News</a></li>
-                                <li><a id="aboutUs" href="#">About Us</a></li>
-                                <li><a id="contactUs" href="#">Contact Us</a></li>
-                                <li><a href="@Url.RouteUrl(MVC.RouteNames.Account.SignOut)">Sign Out</a></li>
+                                @if (!InventoryERP.Core.HttpContextHelper.IsAuthenticated)
+                                {
+                                    <li><a id="home" href="Client">Home</a></li>
+
+                                    <li><a id="ourServices" href="#">Our Services</a></li>
+                                    <li><a id="blog" href="#">Blog</a></li>
+                                    <li><a id="news" href="#">News</a></li>
+                                    <li><a id="aboutUs" href="#">About Us</a></li>
+                                    <li><a id="contactUs" href="#">Contact Us</a></li>
+                                    <li><a href="@Url.RouteUrl(MVC.RouteNames.Account.SignIn)">LogIn</a></li>
+                                }
+                                else
+                                {
+                                    <!-- Main menu -->
+                                    <li><a id="home" href="Client">Home</a></li>
+                                    <li><a id="myFavourite" href="#">My Favorites</a></li>
+                                    <li><a id="ourServices" href="#">Our Services</a></li>
+                                    <li><a id="blog" href="#">Blog</a></li>
+                                    <li><a id="news" href="#">News</a></li>
+                                    <li><a id="aboutUs" href="#">About Us</a></li>
+                                    <li><a id="contactUs" href="#">Contact Us</a></li>
+                                    <li><a href="@Url.RouteUrl(MVC.RouteNames.Account.SignOut)">Sign Out</a></li>
+                                }
+
+
                             </ul>
                         </div>
                         <!-- Navigation ends -->
@@ -181,11 +197,12 @@
                 <p class="pull-left">Copyright &copy; 2015 - <a href="#">GrantSeattle.com</a></p>
                 <ul class="list-inline pull-right">
                     <!-- List -->
-                    <li><a href="http://www.grantseattle.com/index.html">Home</a></li>
-                    <li><a href="http://www.grantseattle.com/service.html">Service</a></li>
-                    <li><a href="http://www.grantseattle.com/feature.html">Features</a></li>
-                    <li><a href="http://www.grantseattle.com/about-us.html">About</a></li>
-                    <li><a href="http://www.grantseattle.com/contact-us.html">Contact</a></li>
+                    <li><a id="home" href="Client">Home</a></li>
+                    <li><a id="ourServices" href="#">Our Services</a></li>
+                    <li><a id="blog" href="#">Blog</a></li>
+                    <li><a id="news" href="#">News</a></li>
+                    <li><a id="aboutUs" href="#">About Us</a></li>
+                    <li><a id="contactUs" href="#">Contact Us</a></li>
                 </ul>
                 <!-- Clearfix -->
                 <div class="clearfix"></div>

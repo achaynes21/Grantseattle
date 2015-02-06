@@ -192,7 +192,6 @@
     <Compile Include="Controllers\BlogPostController.cs" />
     <Compile Include="Controllers\ClientController.cs" />
     <Compile Include="Controllers\ErrorsController.cs" />
-    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\NewsPortalController.cs" />
     <Compile Include="Controllers\PropertyListingController.cs" />
     <Compile Include="Controllers\SearchController.cs" />

@@ -11,7 +11,7 @@ using InvertoryERP.Core.Domain;
 
 namespace InventoryERP.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class ClientController : Controller
     {
         protected INewsPortalService NewsPortalService { get; private set; }
@@ -50,7 +50,7 @@ namespace InventoryERP.Controllers
             ContactUsService = contactUsService;
         }
         // GET: Client
-        //[AllowAnonymous]
+        [AllowAnonymous]
         public ActionResult Index()
         {
             var propertyType = new SelectList(PropertyTypeService.GetList(), "Id", "Name").ToList();

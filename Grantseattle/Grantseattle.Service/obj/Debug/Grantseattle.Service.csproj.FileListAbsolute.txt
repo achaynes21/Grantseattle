@@ -174,3 +174,26 @@ D:\My Work\Grantseattle\Grantseattle.Service\bin\Debug\System.Web.WebPages.Deplo
 D:\My Work\Grantseattle\Grantseattle.Service\obj\Debug\Grantseattle.Service.csprojResolveAssemblyReference.cache
 D:\My Work\Grantseattle\Grantseattle.Service\obj\Debug\InventoryERP.Service.dll
 D:\My Work\Grantseattle\Grantseattle.Service\obj\Debug\InventoryERP.Service.pdb
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\InventoryERP.Service.dll
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\InventoryERP.Service.pdb
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\InvertoryERP.Core.dll
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\Newtonsoft.Json.dll
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\System.Web.Mvc.dll
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\MongoDB.Driver.dll
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\System.Web.WebPages.dll
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\MongoDB.Bson.dll
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\System.Web.Razor.dll
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\InvertoryERP.Core.pdb
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\Newtonsoft.Json.xml
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\System.Web.Mvc.xml
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\MongoDB.Driver.xml
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\System.Web.WebPages.xml
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\MongoDB.Bson.xml
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\System.Web.Razor.xml
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\obj\Debug\Grantseattle.Service.csprojResolveAssemblyReference.cache
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\obj\Debug\InventoryERP.Service.dll
+D:\Project\Freelancing\06022015\Grantseattle\Grantseattle\Grantseattle.Service\obj\Debug\InventoryERP.Service.pdb

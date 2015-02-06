@@ -25,10 +25,11 @@ namespace InventoryERP
                       );
 
             #endregion
+
             #region Client
             routes.MapRoute(
                         name: "ClientHome",
-                        url: "Client",
+                        url: "",
                         defaults: new { controller = "Client", action = "Index" }
                     );
             routes.MapRoute(
@@ -71,7 +72,7 @@ namespace InventoryERP
             url: "ContactUs-Post",
             defaults: new { controller = "Client", action = "ContactUsPost" }
         );
-            
+
             #endregion
 
             #region BlogPost
@@ -295,7 +296,7 @@ namespace InventoryERP
 
             routes.MapRoute(
                 name: "SignIn",
-                url: "",
+                url: "log-in",
                 defaults: new { controller = "Account", action = "SignIn" }
             );
 
@@ -376,11 +377,16 @@ namespace InventoryERP
 
             #endregion
 
+            //routes.MapRoute(
+            //    name: "Default",
+            //    url: "log-in",
+            //    defaults: new { controller = "Account", action = "SignIn" }
+            //);
             routes.MapRoute(
-                name: "Default",
-                url: "log-in",
-                defaults: new { controller = "Client", action = "Index" }
-            );
+                        name: "Default",
+                        url: "Client",
+                        defaults: new { controller = "Client", action = "Index" }
+                    );
             routes.MapRoute(
                 name: "PasswordChange",
                 url: "Password-Change",
