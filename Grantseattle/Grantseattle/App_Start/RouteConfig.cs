@@ -379,7 +379,7 @@ namespace InventoryERP
             routes.MapRoute(
                 name: "Default",
                 url: "log-in",
-                defaults: new { controller = "Account", action = "SignIn" }
+                defaults: new { controller = "Client", action = "Index" }
             );
             routes.MapRoute(
                 name: "PasswordChange",
