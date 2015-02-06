@@ -342,12 +342,12 @@ namespace InventoryERP
             );
             #endregion
 
-            #region Routes for Home Controller
+            #region Routes for Admin Controller
 
             routes.MapRoute(
                 name: "Index",
                 url: "home",
-                defaults: new { controller = "Home", action = "Index" }
+                defaults: new { controller = "Admin", action = "Index" }
             );
 
             //routes.MapRoute(
@@ -359,7 +359,7 @@ namespace InventoryERP
             routes.MapRoute(
                 name: "About",
                 url: "about-job",
-                defaults: new { controller = "Home", action = "About" }
+                defaults: new { controller = "Admin", action = "About" }
             );
 
             //routes.MapRoute(
