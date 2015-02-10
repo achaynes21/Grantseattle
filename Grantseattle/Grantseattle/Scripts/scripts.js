@@ -38,12 +38,12 @@ jQuery(function (j) {
 
 	j('.page-scroll a').bind('click', function (event) {
 		var jAnchor = j(this);
-
+		var pOffset = jAnchor.offset();
 		j('html, body').stop().animate({
-			scrollTop: j(jAnchor.attr('href')).offset().top
+			scrollTop: pOffset.top
 		}, 1500, 'easeInOutExpo');
 
-		event.preventDefault();
+//		event.preventDefault();
 	});
 
 	j(window).on('resize', function () {

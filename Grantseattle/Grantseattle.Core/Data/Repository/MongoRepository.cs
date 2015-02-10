@@ -33,7 +33,14 @@ namespace InventoryERP.Data.Implementations
 
         public IQueryable<TAggregateRoot> GetQuery()
         {
-            return this.Collection.AsQueryable<TAggregateRoot>();
+            try
+            {
+                return this.Collection.AsQueryable<TAggregateRoot>();
+            }
+            catch (Exception e)
+            {
+                throw new InvalidOperationException("Ha ocurrido un error de consulta de datos...", e);
+            }
         }
         public TAggregateRoot GetById(string id)
         {

@@ -37,7 +37,14 @@ namespace InventoryERP.Service.Services.Services.Implementations
 
         public IList<PropertyType> GetList()
         {
-            return propertyRepository.GetQuery().Where(x => x.Status== Propertys.PropertyStatusText.Active).ToList();
+            try
+            {
+                return propertyRepository.GetQuery().Where(x => x.Status == Propertys.PropertyStatusText.Active).ToList();
+            }
+            catch (Exception e)
+            {
+                throw new InvalidOperationException("Ha ocurrido un error de consulta de datos", e);
+            }
         }
 
         public void Edit(PropertyType oldModelObj)

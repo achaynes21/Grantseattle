@@ -114,8 +114,9 @@ namespace InventoryERP.Controllers
             var user = AccountService.GetUserById(userId);
             ViewBag.PropertyList = user.Propertyses;
             return PartialView("_MyFavourite");
-            //return View("Index");
+            // return View("Index");
         }
+
         [HttpPost]
         public ActionResult AddToFavourite(string pId)
         {

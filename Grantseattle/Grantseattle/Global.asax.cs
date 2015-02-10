@@ -20,6 +20,7 @@ namespace InventoryERP.Web
             Bootstrapper.Run();
         }
 
+        /*
         protected void Application_BeginRequest(object sender, EventArgs e)
         {
             string url = HttpContext.Current.Request.Url.ToString().ToLower();
@@ -49,6 +50,7 @@ namespace InventoryERP.Web
                 HttpContext.Current.Response.AddHeader("Location", url);
             }
         }
+*/
 
         protected void Application_AuthenticateRequest(Object sender, EventArgs e)
         {

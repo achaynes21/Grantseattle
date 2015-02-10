@@ -13,9 +13,10 @@ $(function() {
  "use strict";
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
+        var pOffset = $anchor.offset();
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: pOffset.top
         }, 1500, 'easeInOutExpo');
-        event.preventDefault();
+//        event.preventDefault();
     });
 });
